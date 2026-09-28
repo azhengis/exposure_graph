@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local sqlite graph database (rebuild via `npm run ingest`)
+/data/*.db
+/data/*.db-*
